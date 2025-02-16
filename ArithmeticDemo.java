@@ -1,12 +1,26 @@
-public class Main {
+public class ArithmeticDemo {
     public static void main(String[] args) {
-        int num1 = 10, num2 = 5;
+        
+        int num1 = 10;
+        int num2 = 5;
 
-        System.out.println("Sum: " + (num1 + num2));
-        System.out.println("Difference: " + (num1 - num2));
-        System.out.println("Product: " + (num1 * num2));
-        System.out.println("Quotient: " + (num1 / num2));
-        System.out.println("Remainder: " + (num1 % num2));
-        System.out.println("Expression Result: " + ((num1 + num2) * 2 / 2));
+      
+        int sum = num1 + num2;         
+        int difference = num1 - num2;  
+        int product = num1 * num2;     
+        int quotient = num1 / num2;    
+        int remainder = num1 % num2;   
+
+       
+        int expressionResult = num1 + num2 * 2 - 2; 
+     
+       
+        System.out.println("Sum: " + sum);
+        System.out.println("Difference: " + difference);
+        System.out.println("Product: " + product);
+        System.out.println("Quotient: " + quotient);
+        System.out.println("Remainder: " + remainder);
+        System.out.println("Expression Result: " + expressionResult);
     }
 }
+
